@@ -1,0 +1,55 @@
+{
+  "poNumber": "CI4PO05788",
+  "vendorName": "M/s AFP",
+  "status": "MISMATCH",
+  "overallStatus": "MISMATCH",
+  "cards": {
+    "poAmount": 858644.69,
+    "totalInvoiced": 878162.14,
+    "totalReceived": 5745
+  },
+  "associatedDocuments": [
+    {
+      "type": "Purchase Order (v1)",
+      "number": "CI4PO05788",
+      "date": "2026-03-17",
+      "itemsCount": 30
+    },
+    {
+      "type": "Purchase Order (v2)",
+      "number": "CI4PO05788",
+      "date": "2026-03-17",
+      "itemsCount": 8
+    },
+    {
+      "type": "Purchase Order (v3)",
+      "number": "CI4PO05788",
+      "date": "2026-03-17",
+      "itemsCount": 8
+    },
+    {
+      "type": "GRN (Delivery)",
+      "number": "CI4000020234",
+      "date": "2026-03-24",
+      "itemsCount": 30
+    },
+    {
+      "type": "GRN (Delivery)",
+      "number": "CI4000020235",
+      "date": "2026-03-28",
+      "itemsCount": 4
+    },
+    {
+      "type": "Invoice (Fulfillment)",
+      "number": "IN25MH2504251",
+      "date": "2026-03-24",
+      "itemsCount": 28
+    },
+    {
+      "type": "Invoice (Fulfillment)",
+      "number": "IN25MH2504252",
+      "date": "2026-03-29",
+      "itemsCount": 4
+    }
+  ]
+}

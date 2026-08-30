@@ -1,0 +1,122 @@
+{
+  "poNumber": "CI4PO05788",
+  "vendorName": "M/s AFP",
+  "status": "MISMATCH",
+  "overallStatus": "MISMATCH",
+  "cards": {
+    "poAmount": 858644.69,
+    "totalInvoiced": 878162.14,
+    "totalReceived": 5745
+  },
+  "associatedDocuments": [
+    {
+      "type": "Purchase Order (v1)",
+      "number": "CI4PO05788",
+      "date": "2026-03-17",
+      "itemsCount": 30
+    },
+    {
+      "type": "Purchase Order (v2)",
+      "number": "CI4PO05788",
+      "date": "2026-03-17",
+      "itemsCount": 8
+    },
+    {
+      "type": "Purchase Order (v3)",
+      "number": "CI4PO05788",
+      "date": "2026-03-17",
+      "itemsCount": 8
+    },
+    {
+      "type": "GRN (Delivery)",
+      "number": "CI4000020234",
+      "date": "2026-03-24",
+      "itemsCount": 30
+    },
+    {
+      "type": "GRN (Delivery)",
+      "number": "CI4000020235",
+      "date": "2026-03-28",
+      "itemsCount": 4
+    },
+    {
+      "type": "Invoice (Fulfillment)",
+      "number": "IN25MH2504251",
+      "date": "2026-03-24",
+      "itemsCount": 28
+    },
+    {
+      "type": "Invoice (Fulfillment)",
+      "number": "IN25MH2504252",
+      "date": "2026-03-29",
+      "itemsCount": 4
+    }
+  ],
+  "items": [
+    {
+      "itemCode": "11423 psm",
+      "description": "Cheesy Spicy Veg Momos 24.0 Pieces",
+      "poQuantity": 50,
+      "poUnitPrice": 220.76,
+      "poAmount": 11038,
+      "receivedQuantity": 1010,
+      "invoicedQuantity": 585,
+      "invoicedUnitPrice": 220.76,
+      "invoicedAmount": 129144.6,
+      "mrp": 305,
+      "matchStatus": "DISCREPANCY"
+    },
+    {
+      "itemCode": "11797 psm",
+      "description": "Meatigo Hot Wings 250.0 g",
+      "poQuantity": 75,
+      "poUnitPrice": 126.67,
+      "poAmount": 9500.25,
+      "receivedQuantity": 75,
+      "invoicedQuantity": 150,
+      "invoicedUnitPrice": 126.67,
+      "invoicedAmount": 19000.5,
+      "mrp": 175,
+      "matchStatus": "DISCREPANCY"
+    },
+    {
+      "itemCode": "18003 psm",
+      "description": "Meatigo Chicken Curry Cut Skinless Frozen 450.0 g",
+      "poQuantity": 120,
+      "poUnitPrice": 141.14,
+      "poAmount": 16936.8,
+      "receivedQuantity": 1620,
+      "invoicedQuantity": 1590,
+      "invoicedUnitPrice": 199.05,
+      "invoicedAmount": 316489.5,
+      "mrp": 195,
+      "matchStatus": "DISCREPANCY"
+    },
+    {
+      "itemCode": "33390 psm",
+      "description": "Chicken Seekh Kebab 500.0 g",
+      "poQuantity": 272,
+      "poUnitPrice": 228,
+      "poAmount": 62016,
+      "receivedQuantity": 272,
+      "invoicedQuantity": 272,
+      "invoicedUnitPrice": 228,
+      "invoicedAmount": 62016,
+      "mrp": 315,
+      "matchStatus": "MATCHED"
+    },
+    {
+      "itemCode": "414867 psm",
+      "description": "Chinese Veg Spring Rolls 240.0 g",
+      "poQuantity": 25,
+      "poUnitPrice": 119.43,
+      "poAmount": 2985.75,
+      "receivedQuantity": 25,
+      "invoicedQuantity": 25,
+      "invoicedUnitPrice": 119.43,
+      "invoicedAmount": 2985.75,
+      "mrp": 165,
+      "matchStatus": "MATCHED"
+    }
+  ]
+}

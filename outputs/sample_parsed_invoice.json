@@ -1,0 +1,65 @@
+{
+  "documentType": "INVOICE",
+  "invoiceNumber": "IN25MH2504251",
+  "poNumber": "CI4PO05788",
+  "invoiceDate": "2026-03-24",
+  "vendorName": "M/s AFP Supply Chain & Foods Pvt Ltd",
+  "items": [
+    {
+      "itemCode": "FG-P-F-0503",
+      "description": "PSM Cheesy Spicy Vegetable Momos 24Pcs",
+      "quantity": 50,
+      "unitRate": 220.76,
+      "mrp": 305
+    },
+    {
+      "itemCode": "FG-M-F-1703",
+      "description": "Meatigo RTC Meatigo Hot Wings 250g",
+      "quantity": 75,
+      "unitRate": 126.67,
+      "mrp": 175
+    },
+    {
+      "itemCode": "FG-M-F-0620",
+      "description": "Meatigo Chicken Curry Cuts 450g",
+      "quantity": 120,
+      "unitRate": 141.14,
+      "mrp": 195
+    },
+    {
+      "itemCode": "FG-M-F-0619",
+      "description": "Meatigo Chicken Boneless Breast 450g",
+      "quantity": 540,
+      "unitRate": 199.05,
+      "mrp": 275
+    },
+    {
+      "itemCode": "FG-P-F-0249",
+      "description": "PSM Pork Plain Salami 200g",
+      "quantity": 75,
+      "unitRate": 188.19,
+      "mrp": 260
+    },
+    {
+      "itemCode": "FG-P-F-0234",
+      "description": "PSM Frozen Chicken Chilli Salami 200g",
+      "quantity": 75,
+      "unitRate": 126.67,
+      "mrp": 175
+    },
+    {
+      "itemCode": "FG-P-F-0413",
+      "description": "PSM Frozen Chicken Seekh Kabab 500g",
+      "quantity": 272,
+      "unitRate": 228,
+      "mrp": 315
+    },
+    {
+      "itemCode": "FG-M-F-0602",
+      "description": "Meatigo Chicken Drumsticks 450g",
+      "quantity": 270,
+      "unitRate": 188.19,
+      "mrp": 260
+    }
+  ]
+}
