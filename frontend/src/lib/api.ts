@@ -1,7 +1,7 @@
-import axios from 'axios';
+﻿import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://three-way-match-backend-ayab.onrender.com/api',
   timeout: 300000, // 5 minutes timeout
 });
 

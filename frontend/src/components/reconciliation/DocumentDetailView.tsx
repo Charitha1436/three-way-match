@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import React, { useState } from 'react';
 import { ItemGrid } from './ItemGrid';
@@ -31,7 +31,7 @@ export const DocumentDetailView: React.FC<DocumentDetailViewProps> = ({
   const fileName = activeDoc.filePath || `${documentType.toLowerCase()}_sample.pdf`;
   
   // Point directly to backend uploads host
-  const backendBaseUrl = process.env.NEXT_PUBLIC_API_URL?.replace('/api', '') || 'http://localhost:5000';
+  const backendBaseUrl = process.env.NEXT_PUBLIC_API_URL?.replace('/api', '') || 'https://three-way-match-backend-ayab.onrender.com';
   const fileUrl = `${backendBaseUrl}/uploads/${fileName}`;
 
   const accentColor =
@@ -200,7 +200,7 @@ export const DocumentDetailView: React.FC<DocumentDetailViewProps> = ({
                 </div>
                 <div className="flex justify-between text-slate-900 font-bold pt-1 border-t border-slate-100">
                   <span>Calculated Document Total:</span>
-                  <span className="font-mono">₹{totalAmount.toLocaleString('en-IN', { minimumFractionDigits: 2 })}</span>
+                  <span className="font-mono">â‚¹{totalAmount.toLocaleString('en-IN', { minimumFractionDigits: 2 })}</span>
                 </div>
               </div>
             </div>
